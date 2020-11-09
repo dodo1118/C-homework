@@ -15,7 +15,7 @@ int main(void)
             printf("60-69\n");
             break;
         case 'D':
-            printf("0-60\n");
+            printf("0-59\n");
             break;
         default:
             printf("error!\n");
