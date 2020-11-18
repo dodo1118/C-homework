@@ -8,9 +8,9 @@ int main(void)
     {
         p = (a + b + c) / 2;
         s = sqrt(p * (p - a) * (p - b) * (p - c));
-        printf("%.2f\n", s);
+        printf("%.2f", s);
     }
     else
-        printf("-1\n");
+        printf("-1");
     return 0;
 }

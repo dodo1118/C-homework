@@ -6,15 +6,15 @@ int main(void)
     if(long1+long2>long3&&long1+long3>long2&&long2+long3>long1)
     {
         if(long1==long2&&long2==long3&&long1==long3)
-            printf("1\n");
+            printf("1");
         else if(long1==long2||long1==long3||long2==long3)
-            printf("2\n");
+            printf("2");
         else if (long1 *long1 == long2 * long2 + long3 *long3||long2*long2==long1*long1+long3*long3||long3*long3==long1*long1+long2*long2)
-            printf("3\n");
+            printf("3");
         else
-            printf("0\n");
+            printf("0");
     }
     else
-        printf("error!\n");
+        printf("error!");
     return 0;
 }

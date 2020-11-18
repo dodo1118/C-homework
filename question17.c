@@ -4,10 +4,10 @@ int main()
     char vote;
     vote = getchar();
     if(vote=='Y'||vote=='y')
-        printf("agree\n");
+        printf("agree");
     else if(vote=='N'||vote=='n')
-        printf("disagree\n");
+        printf("disagree");
     else
-        printf("lose\n");
+        printf("lose");
     return 0;
 }

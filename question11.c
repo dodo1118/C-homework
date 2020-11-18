@@ -12,16 +12,16 @@ int main (void)
         case 8:
         case 10:
         case 11:
-            printf("31\n");
+            printf("31");
             break;
         case 4:
         case 6:
         case 9:
         case 12:
-            printf("30\n");
+            printf("30");
             break;
         case 2:
-            printf("28\n");
+            printf("28");
             break;
         default:
             printf("error!");

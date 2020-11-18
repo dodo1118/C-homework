@@ -4,8 +4,8 @@ int main(void)
     int num;
     scanf("%d", &num);
     if(num>=1&&num<=100)
-        printf("%d\n", num*num);
+        printf("%d", num*num);
     else
-        printf("-1\n");
+        printf("-1");
     return 0;
 }

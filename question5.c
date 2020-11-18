@@ -9,17 +9,17 @@ int main(void)
     if(x<1)
        {
             y = x * x + 2 * x + sin(x);
-            printf("%.2f\n", y);
+            printf("%.2f", y);
        }
        else if (x>=1&&x<=10)
         {
                y = 2 * x - 1;
-               printf("%.2f\n", y);
+               printf("%.2f", y);
         }
         else
         {
             y = sqrt(2 * x * x * x - 11);
-            printf("%.2f\n", y);
+            printf("%.2f", y);
         }
     return 0;
 }

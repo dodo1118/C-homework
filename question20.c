@@ -6,7 +6,7 @@ int main(void)
     float l, s;
     scanf("%d", &r);
     if (r <= 0)
-        printf("error!\n");
+        printf("error!");
     else
     {
         l = 2 * pai * r;

@@ -6,10 +6,10 @@ int main(void)
     scanf("%lf%lf", &A, &B);
     if(A>B)
     if(sqrt(A+B)*sqrt(A+B)==A+B&&sqrt(A-B)*sqrt(A-B)==A-B)
-        printf("1\n");
+        printf("1");
     else
-        printf("o\n");
+        printf("o");
     else
-        printf("error!\n");
+        printf("error!");
     return 0;
 }
