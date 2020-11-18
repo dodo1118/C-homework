@@ -6,6 +6,6 @@ int main()
 	float h,t;
 	scanf("%f", &h);
 	t=sqrt((2*h)/g);
-	printf("%.2f\n", t);
+	printf("%.2f", t);
 	return 0;
  } 

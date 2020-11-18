@@ -6,6 +6,6 @@ int main()
 	b=a/100;
 	c=a%100/10;
 	d=a%100%10;
-	printf("%d\n", b+c+d);
+	printf("%d", b+c+d);
 	return 0;
  } 

@@ -4,7 +4,7 @@ int main()
 	float F,C;
 	scanf("%f", &F);
 	C=5.0/9*(F-32);
-	printf("%.2f\n", C);
+	printf("%.2f", C);
 	
 	return 0;
  } 

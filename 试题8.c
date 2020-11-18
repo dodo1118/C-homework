@@ -6,7 +6,7 @@ int main()
 	scanf("%f%f%f", &a ,&b, &c);
 	p=(a+b+c)/2;
 	s=sqrt(p*(p-a)*(p-b)*(p-c));
-	printf("%.2f\n", s);
+	printf("%.2f", s);
 		
 	return 0;
  } 
