@@ -3,10 +3,9 @@
 int main()
 {
     char a[80];
-    int i, n, cnt = 0;
+    int i, cnt = 0;
     scanf("%s", a);
-    n = strlen(a);
-    for (i = 0; i < n; i++)
+    while (a[i++] != 0)
         if ((a[i] >= 65 && a[i] <= 90) || (a[i] >= 97 && a[i] <= 122))
             cnt++;
     printf("%d", cnt);

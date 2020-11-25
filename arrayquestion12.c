@@ -2,10 +2,25 @@
 #include <string.h>
 int main()
 {
-    int i, cnt1 = 0, cnt2 = 0, cnta, cntb;
-    char a[80], b[80];
-    scanf("%s", &a);
-    scanf("%s", &b);
+    int i, j, cnt1 = 0, cnt2 = 0, cnta, cntb;
+    char a[80], b[80], A[80], B[80];
+    scanf("%s", &A);
+    scanf("%s", &B);
+    for (i = 0, j = 0; i < strlen(A); i += 2, j++)
+    {
+        a[j] = A[i];
+    }
+    for (i = 0, j = 0; i < strlen(B); i += 2, j++)
+    {
+        b[j] = B[i];
+    }
+    if (strcmp(a, b) > 0)
+        printf("1");
+    else if (strcmp(a, b) == 0)
+        printf("0");
+    else
+        printf("-1");
+    /*
     cnta = strlen(a);
     cntb = strlen(b);
     for (i = 0; i < cnta; i += 2)
@@ -18,5 +33,6 @@ int main()
         printf("0");
     else
         printf("-1");
+    */
     return 0;
 }
